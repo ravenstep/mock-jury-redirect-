@@ -1,0 +1,18 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Redirecting to Study...</title>
+  <script type="text/javascript">
+    window.onload = function() {
+      var links = ['https://app.onlinesurveys.jisc.ac.uk/s/teesside/mock-jury-study-v2-1', 'https://app.onlinesurveys.jisc.ac.uk/s/teesside/mock-jury-study-v2', 'https://app.onlinesurveys.jisc.ac.uk/s/teesside/mock-jury-study-v1'];
+      var randomIndex = Math.floor(Math.random() * links.length);
+      window.location.href = links[randomIndex];
+    };
+  </script>
+</head>
+<body>
+  <p>You are being redirected to the study. If you are not redirected automatically, <a id="fallbackLink" href="https://app.onlinesurveys.jisc.ac.uk/s/teesside/mock-jury-study-v2-1">click here</a>.</p>
+</body>
+</html>
